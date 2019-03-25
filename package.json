@@ -1,0 +1,19 @@
+{
+  "name": "carchoice",
+  "version": "1.0.0",
+  "description": "Polls to chose which car brand is better",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Phillip Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "pusher": "^2.2.0"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sneaker Voter</h1>
+        <p>Vote for Your Favorite Shoe Brand</p>
+        <form id="vote-form">
+                <p>
+                  <input type="radio" name="os" id="nike" value="NIke">
+                  <label for="nike">Nike</label>
+                </p>
+                <p>
+                  <input type="radio" name="os" id="adidas" value="Adidas">
+                  <label for="adidas">Adidas</label>
+                </p>
+                <p>
+                  <input type="radio" name="os" id="van" value="Van">
+                  <label for="van">Vans</label>
+                </p>
+                <p>
+                  <input type="radio" name="os" id="other" value="Other">
+                  <label for="other">Something Else</label>
+                </p>
+                <input type="submit" value="Vote" class="btn btn-primary">
+              </form>
+
+        <br><br>
+
+        <div id="chartContainer" style="height: 300px; width: 90%">
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.4.0/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
